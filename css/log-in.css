@@ -30,15 +30,13 @@ body {
   width: 100%;
   padding: 15px;
   font-size: 18px;
-  /* border: 2px solid var(--border-color); */
-  border: 2px solid red;
+  border: 2px solid var(--border-color);
 }
 
 .login-form .login-input.button {
   border: none;
   color: white;
   background: #405F73;
-  border: 2px solid red;
 }
 
 .login-forgot {

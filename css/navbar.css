@@ -7,9 +7,15 @@ button {
   font-size: 1.2rem;
 }
 
-header {
+h1 {
+  font-size: 3em;
+  color: var(--paper-color);
+  text-transform: capitalize;
+}
+
+.header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: .5rem 1rem;
 }
@@ -26,7 +32,8 @@ header {
   width: 2rem;
   margin-right: auto;
 }
-.logo{
+
+.logo {
   flex-grow: 1;
 }
 
@@ -37,24 +44,30 @@ header {
 .links li {
   display: inline-block;
   padding: 0 1.25rem;
+  text-transform: uppercase;
 }
+
+/* .links ul li a {
+  display: block;
+} */
 
 .links li a {
   transition: all 0.3 ease 0s;
 }
 
 .links li a:hover {
-  color: var(--yellow-color);
+  background-color: var(--yellow-color);
 }
 
 button {
+  cursor: pointer;
+  background-color: var(--yellow-color);
+  letter-spacing: 1.5px;
   margin-left: 1rem;
   margin-top: 8px;
   padding: 0.3rem 1.3rem;
-  background-color: var(--yellow-color);
   border: none;
   border-radius: 50px;
-  cursor: pointer;
   transition: all 0.3 ease 0s;
   color: black;
 }
@@ -75,8 +88,10 @@ button:hover {
   background-color: rgba(237, 175, 36, .7)
 }
 
-.containerText {
-  width: var(--max-width);
+.container {
+  width: 85%;
+  max-width: var(--max-width);
+  margin: auto;
   display: flex;
   flex-direction: column;
 }

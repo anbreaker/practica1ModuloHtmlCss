@@ -1,0 +1,17 @@
+:root {
+  --max-width: 900px;
+  --navbar-height: 50px;
+  --dark-color: #202125;
+  --font-color: #565656;
+  --yellow-color: #edaf24;
+  --border-color: #e7e7e7;
+  --paper-color: #f5f5f5;
+}
+
+/* Reset DOM */
+html,
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}

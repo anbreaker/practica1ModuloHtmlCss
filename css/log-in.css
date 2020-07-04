@@ -1,0 +1,59 @@
+html,
+body {
+  background: var(--dark-color);
+}
+
+.container {
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+}
+
+.container * {
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+
+.login-form {
+  background: var(--paper-color);
+  color: var(--font-color);
+  padding: 40px;
+}
+
+.login-form .login-title {
+  font-size: 38px;
+  font-weight: 300;
+  margin: 0px 0px 45px 0px;
+}
+
+.login-form .login-input {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid var(--border-color);
+}
+
+.login-form .login-input.button {
+  border: none;
+  color: white;
+  background: #15CD72;
+}
+
+.login-forgot {
+  text-decoration: underline;
+  font-size: 0.875rem;
+  color: #987;
+}
+
+.login-signup {
+  color: #ffffff;
+  margin: 1.25rem 0rem;
+}
+
+.login-signup a {
+  color: #ffffff;
+  font-weight: 600;
+}

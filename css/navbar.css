@@ -1,6 +1,66 @@
-.navbar .logo {
-  height: 2rem;
+li,
+a,
+button {
+  color: var(--paper-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: .5rem 1rem;
+}
+
+.navbar {
+  position: static;
+  top: 0;
+  height: var(--navbar-height);
+  z-index: 100;
+}
+
+.logo {
+  cursor: pointer;
   width: 2rem;
-  margin-top: .3rem;
-  margin-left: .3rem;
+  margin-right: auto;
+}
+
+.links {
+  list-style: none
+}
+
+.links li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+.links li a {
+  transition: all 0.3 ease 0s;
+}
+
+.links li a:hover {
+  color: #0088a9
+}
+
+button {
+  margin-left: 1rem;
+  padding: 0.3rem 1.5rem;
+  background-color: var(--yellow-color);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  color: black;
+}
+
+.search-input {
+  color: var(--font-color);
+  border: none;
+  border-radius: 20px;
+  height: 1.5rem;
+}
+
+button:hover {
+  background-color: rgba(237, 175, 36, .7)
 }

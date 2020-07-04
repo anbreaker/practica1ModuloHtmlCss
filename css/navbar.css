@@ -1,69 +1,56 @@
-p,
-li,
-a,
-button {
-  color: var(--paper-color);
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-h1 {
-  font-size: 3em;
-  color: var(--paper-color);
-  text-transform: capitalize;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: .5rem 1rem;
-}
-
 .navbar {
-  position: static;
+  position: sticky;
   top: 0;
+  left: 0;
+  width: 100%;
   height: var(--navbar-height);
-  z-index: 100;
+  background-color: var(--element-color);
+  z-index: 99999;
 }
 
 .logo-img {
-  cursor: pointer;
-  width: 2rem;
-  margin-right: auto;
+  /* --navbar-height (3rem)
+     logo (2rem)
+     ~ 48*32/2=8
+  */
+  margin-top: 8px;
+  margin-left: 8px;
 }
 
-.logo {
-  flex-grow: 1;
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 1rem;
+  float: right;
 }
 
-.links {
-  list-style: none
-}
-
-.links li {
+.navbar-item {
   display: inline-block;
-  padding: 0 1.25rem;
-  text-transform: uppercase;
 }
 
-/* .links ul li a {
+.navbar-item>a {
+  display: inline-block;
+  color: var(--paper-color);
+  text-decoration: none;
+  line-height: var(--navbar-height);
+  padding: 0 1rem;
+}
+
+.navbar ul li a {
   display: block;
-} */
-
-.links li a {
-  transition: all 0.3 ease 0s;
+  transition: all 0.3s ease-in-out;
 }
 
-.links li a:hover {
+.navbar-item a:hover {
   background-color: var(--yellow-color);
 }
 
-button {
+.navbar-item .link-button {
   cursor: pointer;
   background-color: var(--yellow-color);
   letter-spacing: 1.5px;
-  margin-left: 1rem;
+  margin-left: .5rem;
   margin-top: 8px;
   padding: 0.3rem 1.3rem;
   border: none;
@@ -73,19 +60,15 @@ button {
 }
 
 .search-input {
-  padding: 0.3rem 1.3rem;
+  padding: 0.3rem 1.2rem;
   color: var(--font-color);
   border: none;
   border-radius: 20px;
-  height: 1.7rem;
+  height: 1.5rem;
 }
 
 .search-input:focus {
   outline: 0 none;
-}
-
-button:hover {
-  background-color: rgba(237, 175, 36, .7)
 }
 
 .container {
@@ -94,4 +77,23 @@ button:hover {
   margin: auto;
   display: flex;
   flex-direction: column;
+}
+
+p {
+  color: var(--paper-color);
+  margin: 0 0 1.5em 0;
+}
+
+
+.container h1 {
+  margin-top: 2em;
+  font-size: 2em;
+  color: var(--paper-color);
+  text-transform: capitalize;
+}
+
+.logo-img {
+  cursor: pointer;
+  width: 2rem;
+  margin-right: auto;
 }

@@ -1,3 +1,4 @@
+p,
 li,
 a,
 button {
@@ -20,10 +21,13 @@ header {
   z-index: 100;
 }
 
-.logo {
+.logo-img {
   cursor: pointer;
   width: 2rem;
   margin-right: auto;
+}
+.logo{
+  flex-grow: 1;
 }
 
 .links {
@@ -69,4 +73,10 @@ button {
 
 button:hover {
   background-color: rgba(237, 175, 36, .7)
+}
+
+.containerText {
+  width: var(--max-width);
+  display: flex;
+  flex-direction: column;
 }

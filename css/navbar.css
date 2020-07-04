@@ -40,12 +40,13 @@ header {
 }
 
 .links li a:hover {
-  color: #0088a9
+  color: var(--yellow-color);
 }
 
 button {
   margin-left: 1rem;
-  padding: 0.3rem 1.5rem;
+  margin-top: 8px;
+  padding: 0.3rem 1.3rem;
   background-color: var(--yellow-color);
   border: none;
   border-radius: 50px;
@@ -55,10 +56,15 @@ button {
 }
 
 .search-input {
+  padding: 0.3rem 1.3rem;
   color: var(--font-color);
   border: none;
   border-radius: 20px;
-  height: 1.5rem;
+  height: 1.7rem;
+}
+
+.search-input:focus {
+  outline: 0 none;
 }
 
 button:hover {

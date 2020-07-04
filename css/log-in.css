@@ -32,8 +32,16 @@
 
 .login-form .login-input.button {
   border: none;
+  text-decoration: none;
   color: white;
   background: var(--element-color);
+  /* elemento colocado para simulacion */
+  cursor: pointer;
+}
+
+a {
+  /* elemento colocado para simulacion */
+  text-decoration: none;
 }
 
 .login-forgot {

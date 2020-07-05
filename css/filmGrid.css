@@ -20,7 +20,7 @@
 .gridfilms-image img {
   width: 100%;
   vertical-align: top;
-  border-radius: 21px;
+  border-radius: 20px;
 }
 
 .gridfilms-description {
@@ -31,7 +31,7 @@
   right: 0;
   bottom: 0;
   display: none;
-  align-items: initial;
+  align-items: center;
   justify-content: right;
   color: white;
   text-align: center;
@@ -39,6 +39,7 @@
 
 .gridfilms:hover .gridfilms-description {
   display: flex;
+  border-radius: 20px;
 }
 
 .gridfilms-fav {
@@ -61,17 +62,23 @@
 
 .gridfilms-comments .comments-age {
   display: inline-block;
+  margin-top: 1em;
   margin-bottom: 1em;
-  color: crimson;
+  color: var(--paper-color);
 }
 
+.comments-title {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: var(--paper-color);
+}
 
 .comments-description {
-  color: aqua;
+  color: var(--yellow-color);
 }
 
 .comments-synopsis {
   display: inline-block;
   margin-top: 0.5em;
-  color: aqua;
+  color: var(--paper-color);
 }

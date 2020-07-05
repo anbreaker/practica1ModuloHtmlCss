@@ -103,3 +103,23 @@ A post-apocalyptic tale, in which a lone man fights his way across America in or
 ## Description:
 
 When world heavyweight boxing champ Apollo Creed wants to give an unknown fighter a shot at the title as a publicity stunt, his handlers pick palooka Rocky Balboa, an uneducated collector for a Philadelphia loan shark.
+
+# Inside Out (2015)
+
+# Cover:
+
+[![](http://www.whatismymovie.com/t/images/150540.jpg)](http://www.whatismymovie.com/t/images/150540.jpg)
+
+## Description:
+
+Growing up can be a bumpy road, and it's no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Like all of us, Riley is guided by her emotions - Joy, Fear, Anger, Disgust and Sadness. The emotions live in Headquarters, the control center inside Riley's mind, where they help advise her through everyday life. As Riley and her emotions struggle to adjust to a new life in San Francisco, turmoil ensues in Headquarters. Although Joy, Riley's main and most important emotion, tries to keep things positive, the emotions conflict on how best to navigate a new city, house and school.
+
+# Mad Max: Fury Road (2015)
+
+# Cover:
+
+[![](http://www.whatismymovie.com/t/images/76341.jpg)](http://www.whatismymovie.com/t/images/76341.jpg)
+
+## Description:
+
+An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order. There's Max, a man of action and a man of few words, who seeks peace of mind following the loss of his wife and child in the aftermath of the chaos. And Furiosa, a woman of action and a woman who believes her path to survival may be achieved if she can make it across the desert back to her childhood homeland.

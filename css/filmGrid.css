@@ -1,19 +1,18 @@
-.section-gridfilms {
+.container-gridfilms {
   display: grid;
   grid-template-columns: repeat(5, 265px);
   justify-content: center;
 }
 
-.section-gridfilms .gridfilms {
-  margin-top: 4rem;
-  /* margin-left: 1rem; */
+.container-gridfilms .gridfilms {
+  margin-bottom: 1rem;
   display: block;
   cursor: pointer;
   position: relative;
   width: 250px;
 }
 
-.section-gridfilms .gridfilms-image {
+.container-gridfilms .gridfilms-image {
   margin: 0;
 }
 
@@ -81,4 +80,10 @@
   display: inline-block;
   margin-top: 0.5em;
   color: var(--paper-color);
+}
+
+.section-title {
+  margin-top: 4rem;
+  color: var(--yellow-color);
+  font-size: 2rem;
 }

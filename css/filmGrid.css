@@ -1,0 +1,40 @@
+.section-gridfilms .gridfilms {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  width: 250px;
+}
+
+.section-gridfilms .gridfilms-image {
+  margin: 0;
+}
+
+.gridfilms-image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.gridfilms-description {
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.gridfilms:hover .gridfilms-description {
+  display: flex;
+}
+
+.gridfilms-fav {
+  width: 200px;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+}

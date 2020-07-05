@@ -73,3 +73,13 @@ A botched robbery indicates a police informant, and the pressure mounts in the a
 ## Description:
 
 A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.
+
+# Pulp Fiction (1994)
+
+# Cover:
+
+[![](http://www.whatismymovie.com/t/images/680.jpg)](http://www.whatismymovie.com/t/images/680.jpg)
+
+## Description:
+
+A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.

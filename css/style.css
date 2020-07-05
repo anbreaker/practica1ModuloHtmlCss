@@ -9,6 +9,12 @@
   --element-color: #003f5c;
 }
 
+@font-face {
+  font-family: icomoon;
+  src: url("../fonts/icomoon.ttf");
+}
+
+
 html,
 body {
   background: var(--dark-color);

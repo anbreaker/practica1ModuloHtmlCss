@@ -5,15 +5,18 @@ body {
 
 .container {
   display: grid;
-  grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+  /* grid-template: repeat(4, 1fr) / repeat(5, 1fr); */
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
   margin: auto;
   height: 100vh;
+  /* 4rows & 5columns */
   grid-template-areas:
-    "header header header header header"
+    "header    header    header    header    header"
     "films-one films-one films-one films-one films-one"
     "films-two films-two films-two films-two films-two"
-    "footer footer footer footer footer";
+    "footer    footer    footer    footer    footer";
 }
 
 .item {

@@ -21,3 +21,8 @@
   color: var(--yellow-color);
   text-decoration: none;
 }
+
+.emphasis {
+  color: var(--yellow-color);
+  text-shadow: crimson 1px 0 10px;
+}

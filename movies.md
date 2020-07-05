@@ -83,3 +83,23 @@ A New York stockbroker refuses to cooperate in a large securities fraud case inv
 ## Description:
 
 A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.
+
+# The Book of Eli (2010)
+
+# Cover:
+
+[![](http://www.whatismymovie.com/t/images/20504.jpg)](http://www.whatismymovie.com/t/images/20504.jpg)
+
+## Description:
+
+A post-apocalyptic tale, in which a lone man fights his way across America in order to protect a sacred book that holds the secrets to saving humankind.
+
+# Rocky (1976)
+
+# Cover:
+
+[![](http://www.whatismymovie.com/t/images/1366.jpg)](http://www.whatismymovie.com/t/images/1366.jpg)
+
+## Description:
+
+When world heavyweight boxing champ Apollo Creed wants to give an unknown fighter a shot at the title as a publicity stunt, his handlers pick palooka Rocky Balboa, an uneducated collector for a Philadelphia loan shark.

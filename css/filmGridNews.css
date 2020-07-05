@@ -26,6 +26,7 @@ body {
 
 .header {
   grid-area: header;
+  margin-top: var(--navbar-height);
 }
 
 .films-one {

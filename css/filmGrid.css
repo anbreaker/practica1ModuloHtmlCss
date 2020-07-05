@@ -1,7 +1,8 @@
 .container-gridfilms {
   display: grid;
-  grid-template-columns: repeat(5, 265px);
+  grid-template-columns: repeat(5, 250px);
   justify-content: center;
+  gap: .5rem;
 }
 
 .container-gridfilms .gridfilms {
@@ -10,16 +11,17 @@
   cursor: pointer;
   position: relative;
   width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .container-gridfilms .gridfilms-image {
   margin: 0;
 }
 
-.gridfilms-image img {
+.gridfilms-image>img {
   width: 100%;
   vertical-align: top;
-  border-radius: 20px;
 }
 
 .gridfilms-description {
@@ -37,11 +39,13 @@
 }
 
 .gridfilms:hover .gridfilms-description {
-  display: flex;
-  border-radius: 20px;
+  display: block;
 }
 
 .gridfilms-fav {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 200px;
   margin: 5px;
   color: white;
@@ -59,7 +63,7 @@
   display: inline-block;
 }
 
-.gridfilms-comments .comments-age {
+.comments-age {
   display: inline-block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -67,6 +71,7 @@
 }
 
 .comments-title {
+  font-size: 1.2rem;
   display: inline-block;
   margin-top: 0.5em;
   color: var(--paper-color);
@@ -86,4 +91,6 @@
   margin-top: 4rem;
   color: var(--yellow-color);
   font-size: 2rem;
+  width: calc(calc(250px*5) + calc(4*.5rem));
+  margin: 4rem auto 2rem auto;
 }

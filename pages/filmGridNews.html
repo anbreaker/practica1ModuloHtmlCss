@@ -6,45 +6,81 @@
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/navbar.css" />
-    <link rel="stylesheet" href="../css/filmGrid.css" />
+    <link rel="stylesheet" href="../css/filmGridNews.css" />
     <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon" />
     <title>Films Grid</title>
   </head>
-  <body>
-    <header class="header">
-      <nav id="navbar" class="navbar">
-        <span class="logo">
-          <a href="/">
-            <img class="logo-img" src="../img/logo.svg" alt="Logo" />
-          </a>
-        </span>
 
-        <ul class="navbar-list">
-          <li class="navbar-item"><a href="../pages/filmGridNews.html">News</a></li>
-          <li class="navbar-item">
-            <a href="../pages/filmGrid.html">Films</a>
-          </li>
-          <li class="navbar-item">
-            <a href="../pages/filmGridFavourite.html">Favourite</a>
-          </li>
-          <li class="navbar-item">
-            <input class="search-input" type="text" name="" placeholder="Search" />
-          </li>
-          <li class="navbar-item">
-            <a href="../pages/pageNotFound.html">
-              <button class="link-button">Sign Out</button>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="section-gridfilms">
-      <div class="container-gridfilms">
-        <h1 class="section-title">Films:</h1>
+  <body>
+    <section class="container">
+      <div class="item header">
+        <header class="header">
+          <nav id="navbar" class="navbar">
+            <span class="logo">
+              <a href="/">
+                <img class="logo-img" src="../img/logo.svg" alt="Logo" />
+              </a>
+            </span>
+
+            <ul class="navbar-list">
+              <li class="navbar-item"><a href="../pages/filmGridNews.html">News</a></li>
+              <li class="navbar-item">
+                <a href="../pages/filmGrid.html">Films</a>
+              </li>
+              <li class="navbar-item">
+                <a href="../pages/filmGridFavourite.html">Favourite</a>
+              </li>
+              <li class="navbar-item">
+                <input class="search-input" type="text" name="" placeholder="Search" />
+              </li>
+              <li class="navbar-item">
+                <a href="../pages/pageNotFound.html">
+                  <button class="link-button">Sign Out</button>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <h1>Films:</h1>
       </div>
 
-      <div class="container-gridfilms">
-        <!-- <a href="#" class="gridfilms">
+      <!-- Area films-one -->
+      <div class="item films-one">
+        <div class="container">
+          <article class="article-description">
+            <h2>Inside Out (2015)</h2>
+            <p>Movie rating: Age +16</p>
+            <h3>Description:</h3>
+            <q>
+              An apocalyptic story set in the furthest reaches of our planet, in a stark
+              desert landscape where humanity is broken, and most everyone is crazed
+              fighting for the necessities of life.
+            </q>
+          </article>
+        </div>
+      </div>
+
+      <div class="item films-two">films-two</div>
+      <div class="item footer">footer</div>
+    </section>
+  </body>
+</html>
+
+<!-- 
+        <div class="container">
+        <article class="article-description">
+          <h2>Inside Out (2015)</h2>
+          <p>Movie rating: Age +16</p>
+          <h3>Description:</h3>
+          <q>
+            An apocalyptic story set in the furthest reaches of our planet, in a stark
+            desert landscape where humanity is broken, and most everyone is crazed
+            fighting for the necessities of life.
+          </q>
+        </article>
+        </div>
+  
+  <a href="#" class="gridfilms">
         <figure class="gridfilms-image">
           <img src="../img/films/madMaxNew.jpg" alt="Picture of Star Wars" />
         </figure>
@@ -66,31 +102,3 @@
           </p>
         </span>
       </a> -->
-
-        <a href="#" class="gridfilms">
-          <figure class="gridfilms-image">
-            <img src="../img/films/inside.jpg" alt="Picture of The Pursuit" />
-          </figure>
-          <span class="gridfilms-description">
-            <p>
-              <span class="gridfilms-fav">✔️</span>
-              <span class="gridfilms-comments">
-                <span class="comments-title">
-                  Inside Out (2015)
-                </span>
-                <span class="comments-age">Movie rating: Age +16</span>
-                <span class="comments-description">Description:</span>
-                <span class="comments-synopsis">
-                  Growing up can be a bumpy road, and it's no exception for Riley, who is
-                  uprooted from her Midwest life when her father starts a new job in San
-                  Francisco. Like all of us, Riley is guided by her emotions - Joy, Fear,
-                  Anger, Disgust and Sadness...
-                </span>
-              </span>
-            </p>
-          </span>
-        </a>
-      </div>
-    </section>
-  </body>
-</html>

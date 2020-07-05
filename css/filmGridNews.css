@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+  grid-gap: 1rem;
+  margin: auto;
+  height: 100vh;
+  grid-template-areas:
+    "header header header header header"
+    "films-one films-one films-one films-one films-one"
+    "films-two films-two films-two films-two films-two"
+    "footer footer footer footer footer";
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.header {
+  grid-area: header;
+}
+
+.films-one {
+  grid-area: films-one;
+}
+
+.films-two {
+  grid-area: films-two;
+}
+
+.footer {
+  grid-area: footer;
+}

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(5, 250px);
   justify-content: center;
-  gap: .5rem;
+  gap: .8rem;
 }
 
 .container-gridfilms .gridfilms {

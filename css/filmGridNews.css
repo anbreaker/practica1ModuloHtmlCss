@@ -1,42 +1,103 @@
-body {
-  font-family: Arial;
-  color: white;
-}
-
-.container {
+.container-gridfilms {
   display: grid;
-  /* grid-template: repeat(4, 1fr) / repeat(5, 1fr); */
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1rem;
-  margin: auto;
-  height: 100vh;
-  /* 4rows & 5columns */
-  grid-template-areas:
-    "header    header    header    header    header"
-    "films-one films-one films-one films-one films-one"
-    "films-two films-two films-two films-two films-two"
-    "footer    footer    footer    footer    footer";
+  grid-template-columns: repeat(5, 250px);
+  justify-content: center;
+  gap: .8rem;
 }
 
-.item {
-  padding: 10px;
-  border: 1px solid red;
+.container-gridfilms .gridfilms {
+  margin-bottom: 1rem;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.header {
-  grid-area: header;
-  margin-top: var(--navbar-height);
+.container-gridfilms .gridfilms-image {
+  margin: 0;
 }
 
-.films-one {
-  grid-area: films-one;
+.gridfilms-image>img {
+  width: 100%;
+  vertical-align: top;
 }
 
-.films-two {
-  grid-area: films-two;
+.gridfilms-description {
+  background-color: rgba(0, 0, 0, .85);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: right;
+  color: white;
+  text-align: center;
 }
 
-.footer {
-  grid-area: footer;
+.gridfilms:hover .gridfilms-description {
+  display: block;
+  text-align: left;
+}
+
+.gridfilms-fav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  display: inline-block;
+}
+
+.gridfilms-comments {
+  width: 200px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+}
+
+.comments-age {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: var(--paper-color);
+}
+
+.comments-title {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 0.5em;
+  color: var(--paper-color);
+}
+
+.comments-description {
+  color: var(--yellow-color);
+}
+
+.comments-synopsis {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: var(--paper-color);
+}
+
+.section-title {
+  margin-top: 4rem;
+  color: var(--yellow-color);
+  font-size: 2rem;
+  width: calc(calc(250px*5) + calc(4*.5rem));
+  margin: 4rem auto 1rem auto;
+}
+
+hr {
+  width: calc(calc(calc(250px*5) + calc(4*.5rem)+25px));
+  border: crimson solid 2px;
+  margin-bottom: 2rem;
 }

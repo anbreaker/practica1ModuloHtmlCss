@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon.eot?bue1p8');
-  src: url('../fonts/icomoon.eot?bue1p8#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?bue1p8') format('truetype'),
-    url('../fonts/icomoon.woff?bue1p8') format('woff'),
-    url('../fonts/icomoon.svg?bue1p8#icomoon') format('svg');
+  src: url('../fonts/icomoon.eot?fj2zqu');
+  src: url('../fonts/icomoon.eot?fj2zqu#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fj2zqu') format('truetype'),
+    url('../fonts/icomoon.woff?fj2zqu') format('woff'),
+    url('../fonts/icomoon.svg?fj2zqu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,30 +25,42 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-home:before {
+.ico-home:before {
   content: "\e902";
 }
 
-.icon-play:before {
+.ico-search:before {
+  content: "\e986";
+}
+
+.ico-star-empty:before {
+  content: "\e9d7";
+}
+
+.ico-star-full:before {
+  content: "\e9d9";
+}
+
+.ico-play:before {
   content: "\ea1c";
 }
 
-.icon-arrow-right:before {
+.ico-arrow-right:before {
   content: "\ea3c";
 }
 
-.icon-arrow-left:before {
+.ico-arrow-left:before {
   content: "\ea40";
 }
 
-.icon-code:before {
+.ico-code:before {
   content: "\ea80";
 }
 
-.icon-twitter:before {
+.ico-twitter:before {
   content: "\ea96";
 }
 
-.icon-linkedin:before {
+.ico-linkedin:before {
   content: "\eac9";
 }

@@ -1,5 +1,6 @@
 .container-gridfilms {
   display: grid;
+  /* grid-template-columns: repeat(5, minmax(250px, 500px)); */
   grid-template-columns: repeat(5, 250px);
   justify-content: center;
   gap: .8rem;
@@ -10,7 +11,7 @@
   display: block;
   cursor: pointer;
   position: relative;
-  width: 250px;
+  /* width: 250px; */
   border-radius: 20px;
   overflow: hidden;
 }
@@ -34,7 +35,7 @@
   display: none;
   align-items: center;
   justify-content: right;
-  color: white;
+  color: var(--paper-color);
   text-align: center;
 }
 
@@ -49,16 +50,17 @@
   right: 0;
   width: 200px;
   margin: 5px;
-  color: white;
   font-weight: bold;
   text-align: right;
   display: inline-block;
+  font-size: 1.3em;
+  color: yellow;
 }
 
 .gridfilms-comments {
   width: 200px;
   margin: 5px;
-  color: white;
+  color: var(--paper-color);
   font-weight: bold;
   text-align: left;
   display: inline-block;
@@ -74,7 +76,7 @@
 .comments-title {
   font-size: 1.2rem;
   display: inline-block;
-  margin-top: 0.5em;
+  margin-top: 3.125rem;
   color: var(--paper-color);
 }
 

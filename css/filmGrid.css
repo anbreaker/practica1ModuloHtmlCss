@@ -40,6 +40,7 @@
 
 .gridfilms:hover .gridfilms-description {
   display: block;
+  text-align: left;
 }
 
 .gridfilms-fav {
@@ -92,5 +93,11 @@
   color: var(--yellow-color);
   font-size: 2rem;
   width: calc(calc(250px*5) + calc(4*.5rem));
-  margin: 4rem auto 2rem auto;
+  margin: 4rem auto 1rem auto;
+}
+
+hr {
+  width: calc(calc(calc(250px*5) + calc(4*.5rem)+25px));
+  border: crimson solid 2px;
+  margin-bottom: 2rem;
 }

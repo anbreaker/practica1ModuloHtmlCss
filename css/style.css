@@ -13,3 +13,12 @@ html,
 body {
   background: var(--dark-color);
 }
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track,
+body::-webkit-scrollbar-thumb {
+  background: var(--element-color);
+}

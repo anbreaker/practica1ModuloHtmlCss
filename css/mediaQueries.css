@@ -1,3 +1,17 @@
+/*
+
+<-- Responsive! -->
+ 
+<-- Mobile phones horizontally or tablets vertically -->
+@media (min-width: 768px) { }
+ 
+<-- Horizontal tablets and normal desks -->
+@media (min-width: 1024px) { }
+ 
+<-- Wide desks -->
+*/
+@media (min-width: 1200px) {}
+
 @media screen and (max-width: 1319px) {
   .container-gridfilms {
     grid-template-columns: repeat(auto-fill, 250px);

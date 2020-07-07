@@ -29,7 +29,8 @@
   display: inline-block;
 }
 
-.navbar-item>a {
+.navbar-item>a,
+i {
   display: inline-block;
   color: var(--paper-color);
   text-decoration: none;
@@ -60,6 +61,10 @@
   color: var(--dark-color);
 }
 
+.search-icon {
+  visibility: hidden;
+}
+
 .search-input {
   padding: 0.3rem 1.2rem;
   color: var(--font-color);
@@ -76,4 +81,10 @@
   cursor: pointer;
   width: 2rem;
   margin-right: auto;
+}
+
+/* small Navbar */
+
+@media all and (min-width: 768px) {
+  .navbar {}
 }

@@ -8,7 +8,7 @@
   --yellow-color: #ffa600;
   --border-color: #e7e7e7;
   --paper-color: #f5f5f5;
-  --element-color: #003f5c;
+  --element-color: #092532;
 }
 
 html,
@@ -18,7 +18,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.35rem;
 }
 
 body::-webkit-scrollbar-track,

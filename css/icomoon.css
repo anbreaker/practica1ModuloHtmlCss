@@ -25,12 +25,28 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ico-cross:before {
+  content: "\e900";
+}
+
 .ico-home:before {
   content: "\e902";
 }
 
 .ico-search:before {
   content: "\e986";
+}
+
+.ico-menu:before {
+  content: "\e9bd";
+}
+
+.ico-menu-open:before {
+  content: "\e9bf";
+}
+
+.ico-menu-close:before {
+  content: "\e9c0";
 }
 
 .ico-star-empty:before {
@@ -51,16 +67,4 @@ i {
 
 .ico-arrow-left:before {
   content: "\ea40";
-}
-
-.ico-code:before {
-  content: "\ea80";
-}
-
-.ico-twitter:before {
-  content: "\ea96";
-}
-
-.ico-linkedin:before {
-  content: "\eac9";
 }

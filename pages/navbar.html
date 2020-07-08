@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <!-- <link rel="stylesheet" href="../css/navbar-flex.css" /> -->
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/icomoon.css" />
     <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon" />
@@ -14,12 +13,16 @@
   <body>
     <header class="header">
       <nav id="navbar" class="navbar">
+        <input type="checkbox" id="hidden-menu" />
+        <label for="hidden-menu">
+          <i class="ico-menu" id="open-menu"></i>
+          <i class="ico-cross" id="close-menu"></i>
+        </label>
         <span class="logo">
           <a href="/">
             <img class="logo-img" src="../img/logo.svg" alt="Logo" />
           </a>
         </span>
-        <!-- <div class="burguer-label"></div> -->
 
         <ul class="navbar-list">
           <li class="navbar-item">
@@ -33,13 +36,10 @@
             <a href="../pages/filmGridFavourite.html">Favourite</a>
           </li>
           <li class="navbar-item">
-            <input
-              id="search"
-              class="search-input"
-              type="search"
-              name=""
-              placeholder="Search"
-            />
+            <a href="#search"><i class="ico-search"></i></a>
+          </li>
+          <li class="navbar-item">
+            <input id="search" class="search-input" type="search" placeholder="Search" />
           </li>
           <li class="navbar-item">
             <a href="../pages/pageNotFound.html">
@@ -49,5 +49,6 @@
         </ul>
       </nav>
     </header>
+    <div class="container-area"></div>
   </body>
 </html>

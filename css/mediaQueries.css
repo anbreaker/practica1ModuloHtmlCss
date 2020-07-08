@@ -3,14 +3,20 @@
 <-- Responsive! -->
  
 <-- Mobile phones horizontally or tablets vertically -->
-@media (min-width: 768px) { }
+
  
 <-- Horizontal tablets and normal desks -->
 @media (min-width: 1024px) { }
  
 <-- Wide desks -->
 */
-@media (min-width: 1200px) {}
+@media all and (min-width: 768px) {
+
+  .hidden-menu-input,
+  .hidden-menu-label {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 1319px) {
   .container-gridfilms {

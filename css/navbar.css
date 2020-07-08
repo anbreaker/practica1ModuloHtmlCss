@@ -12,16 +12,16 @@
   position: absolute;
   margin-top: 10px;
   margin-left: 8px;
-  left: 10%;
+  left: 5%;
   color: var(--paper-color);
 }
 
+/* --navbar-height (3rem)
+   logo (2rem)
+   ~ 48*32/2=8
+*/
 .logo-img {
   position: absolute;
-  /* --navbar-height (3rem)
-     logo (2rem)
-     ~ 48*32/2=8
-  */
   margin-top: 8px;
   margin-left: 8px;
   cursor: pointer;
@@ -112,10 +112,14 @@ label #close-menu {
 
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
 
   label #open-menu {
     display: block;
+  }
+
+  .navbar h1 {
+    left: 8%;
   }
 
   .navbar-item>a,
@@ -157,11 +161,5 @@ label #close-menu {
 
   #hidden-menu:checked~label #close-menu {
     display: block;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .search-input {
-    display: none;
   }
 }

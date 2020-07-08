@@ -8,6 +8,14 @@
   z-index: 99999;
 }
 
+.navbar h1 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 8px;
+  left: 10%;
+  color: var(--paper-color);
+}
+
 .logo-img {
   position: absolute;
   /* --navbar-height (3rem)
@@ -82,13 +90,10 @@ i {
   outline: 0 none;
 }
 
-
-/* ----------------------- */
-
 label #open-menu,
 label #close-menu {
   font-size: 1.7rem;
-  color: white;
+  color: var(--paper-color);
   float: right;
   line-height: 3.125rem;
   margin-right: .5rem;
@@ -150,11 +155,8 @@ label #close-menu {
 
 }
 
-/* small Navbar */
-
 @media all and (max-width: 768px) {
-  .navbar {}
-
   .search-input {
     display: none;
   }
+}

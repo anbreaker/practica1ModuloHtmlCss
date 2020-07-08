@@ -14,6 +14,12 @@
   <body>
     <header class="header">
       <nav id="navbar" class="navbar">
+        <input type="checkbox" id="hidden-menu" />
+        <label for="hidden-menu">
+          <i class="ico-menu" id="open-menu"></i>
+          <i class="ico-cross" id="close-menu"></i>
+        </label>
+        <a href="#"><h1>rootdevs</h1></a>
         <span class="logo">
           <a href="/">
             <img class="logo-img" src="../img/logo.svg" alt="Logo" />
@@ -29,7 +35,7 @@
             <a href="../pages/filmGridFavourite.html">Favourite</a>
           </li>
           <li class="navbar-item">
-            <input class="search-input" type="text" name="" placeholder="Search" />
+            <input id="search" class="search-input" type="search" placeholder="Search" />
           </li>
           <li class="navbar-item">
             <a href="../pages/pageNotFound.html">

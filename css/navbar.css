@@ -109,10 +109,18 @@ label #close-menu {
   height: 100vh;
 }
 
-@media all and (max-width: 870px) {
+
+
+
+@media all and (max-width: 768px) {
 
   label #open-menu {
     display: block;
+  }
+
+  .navbar-item>a,
+  .search-input {
+    text-align: center;
   }
 
   .navbar-list {
@@ -139,7 +147,6 @@ label #close-menu {
     font-size: 20px;
   }
 
-
   #hidden-menu:checked~ul {
     left: 0;
   }
@@ -151,8 +158,6 @@ label #close-menu {
   #hidden-menu:checked~label #close-menu {
     display: block;
   }
-
-
 }
 
 @media all and (max-width: 768px) {

@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
   width: 0.35rem;
 }
 
-/* body::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track,
 body::-webkit-scrollbar-thumb {
   background: var(--element-color);
-} */
+}

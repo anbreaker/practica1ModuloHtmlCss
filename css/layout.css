@@ -1,0 +1,88 @@
+* {
+  color: white;
+}
+
+/* Mobile First */
+
+.main-head {
+  grid-area: header;
+  border: 1px solid crimson;
+}
+
+.content {
+  grid-area: content;
+  border: 1px solid crimson;
+  /* Preguntar sobre footer y Navbar con Grid */
+  /* min-height: 80vh; */
+}
+
+.main-nav {
+  grid-area: nav;
+  border: 1px solid crimson;
+}
+
+.side {
+  grid-area: sidebar;
+  border: 1px solid crimson;
+}
+
+.ad {
+  grid-area: ad;
+  border: 1px solid crimson;
+}
+
+.main-footer {
+  grid-area: footer;
+  border: 1px solid crimson;
+}
+
+.wrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "header"
+    "nav"
+    "content"
+    "sidebar"
+    "ad"
+    "footer";
+}
+
+/* Landscape */
+
+@media (min-width: 500px) {
+  .ad {
+    display: none;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+      "header  header"
+      "nav     nav"
+      "sidebar content"
+      "footer      footer";
+  }
+
+  .main-nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* screen width */
+@media (min-width: 700px) {
+  .ad {
+    display: initial;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr 1fr 4fr;
+    grid-template-areas:
+      "header  header header"
+      "nav     nav    nav"
+      "sidebar ad     content"
+      "footer  footer footer"
+    ;
+  }
+}

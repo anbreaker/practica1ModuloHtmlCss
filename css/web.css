@@ -18,3 +18,7 @@
   grid-area: footer;
   border: 1px solid crimson;
 }
+
+.section-title {
+  text-transform: capitalize;
+}

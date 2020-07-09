@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/web.css" />
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
     <title>Web Pelis</title>
   </head>
@@ -33,14 +34,12 @@
               <a href="../pages/filmGridFavourite.html">Favourite</a>
             </li>
             <li class="navbar-item">
-              <a>
-                <input
-                  id="search"
-                  class="search-input"
-                  type="search"
-                  placeholder="Search"
-                />
-              </a>
+              <input
+                id="search"
+                class="search-input"
+                type="search"
+                placeholder="Search"
+              />
             </li>
             <li class="navbar-item">
               <a href="../pages/pageNotFound.html">
@@ -277,10 +276,67 @@
       <section class="section-watchNext">
         <h1 class="section-title">Watch next</h1>
         <hr />
+        <div class="container-gridfilms">
+          <a href="#" class="gridfilms">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/futurama.jpg" alt="Picture of Futurama" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Futurama: The Beast with a Billion Backs (2008)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Fresh off ripping space-time a new one at the end of "Bender's Big
+                  Score," the Planet Express crew...
+                </q>
+              </div>
+            </article>
+          </a>
+
+          <a href="#" class="gridfilms">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/thePursuit.jpg" alt="Picture of The Pursuit" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  The Pursuit of Happyness (2006)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <p class="comments-synopsis">
+                  Based on a true story about a man named Christopher Gardner, who has
+                  invested heavily in a device known as a "Bone Density scanner"...
+                </p>
+              </div>
+            </article>
+          </a>
+        </div>
       </section>
 
-      <footer>
-        <h1>Footer</h1>
+      <footer class="footer">
+        <div class="container-footer">
+          <p>Got feedback?, This web is open source!.</p>
+          <p>
+            Exercise for learn Html5 & CSS3 by
+            <a href="https://keepcoding.io/">
+              <strong>Keepcoding!</strong>
+            </a>
+          </p>
+          <p>
+            Made with <i class="i-color-l">&lt;/code&gt; & ❤️</i> by
+            <a href="https://github.com/anbreaker">
+              <i class="i-color">anbreaker</i>
+            </a>
+          </p>
+        </div>
       </footer>
     </div>
   </body>

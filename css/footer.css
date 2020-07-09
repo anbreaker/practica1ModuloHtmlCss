@@ -20,7 +20,7 @@ h1 {
 .footer {
   align-self: flex-end;
   min-width: 100vw;
-  height: 9rem;
+  min-height: 9rem;
   text-align: center;
   background-color: var(--element-color);
   color: var(--paper-color);

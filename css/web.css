@@ -1,0 +1,20 @@
+/* Mobile First */
+.header {
+  grid-area: header;
+  border: 1px solid crimson;
+}
+
+.section-films {
+  grid-area: films;
+  border: 1px solid crimson;
+}
+
+.section-watchNext {
+  grid-area: watchNext;
+  border: 1px solid crimson;
+}
+
+.footer {
+  grid-area: footer;
+  border: 1px solid crimson;
+}

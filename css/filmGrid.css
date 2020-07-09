@@ -103,10 +103,3 @@ hr {
   border: crimson solid 2px;
   margin-bottom: 2rem;
 }
-
-@media screen and (max-width: 1319px) {
-  .container-gridfilms {
-    grid-template-columns: repeat(auto-fill, 250px);
-    gap: .3rem;
-  }
-}

@@ -11,11 +11,18 @@
 }
 
 .section-description {
+  display: grid;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
   grid-area: section-description;
   border: rgb(245, 56, 220) 1px solid;
 }
 
 .aside-similar {
+  display: grid;
+  justify-content: center;
   grid-area: aside-similar;
   border: rgb(103, 188, 214) 1px solid;
 }
@@ -31,6 +38,8 @@
 
 .article-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .article-img {

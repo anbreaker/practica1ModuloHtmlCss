@@ -6,17 +6,37 @@
 /* Mobile First */
 
 .header {
+  grid-area: header;
   border: rgb(48, 163, 148) 1px solid;
 }
 
 .section-video {
+  grid-area: section-video;
   border: rgb(51, 216, 17) 1px solid;
 }
 
 .section-description {
+  grid-area: section-description;
   border: rgb(245, 56, 220) 1px solid;
 }
 
-.section-related {
-  border: rgb(62, 151, 179) 1px solid;
+.aside-similar {
+  grid-area: aside-similar;
+  border: rgb(103, 188, 214) 1px solid;
+}
+
+.footer {
+  grid-area: footer;
+  border: rgb(235, 231, 17) 1px solid;
+}
+
+
+.articleGrid-img {
+  width: 5rem;
+}
+
+.aside-img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
 }

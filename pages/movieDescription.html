@@ -5,18 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <!-- <link rel="stylesheet" href="../css/navbar.css" /> -->
+    <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/icomoon.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/movieDescription.css" />
     <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon" />
     <title>Movie Description</title>
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">Navbar</header>
-      <section class="section-video">Video</section>
-      <article class="section-description">Info</article>
-      <aside class="section-related">Related videos</aside>
+      <header class="header">
+        <nav id="navbar" class="navbar">
+          <input type="checkbox" id="hidden-menu" />
+          <label for="hidden-menu">
+            <i class="ico-menu" id="open-menu"></i>
+            <i class="ico-cross" id="close-menu"></i>
+          </label>
+          <a href="#"><h1>rootdevs</h1></a>
+          <span class="logo">
+            <a href="/">
+              <img class="logo-img" src="../img/logo.svg" alt="Logo" />
+            </a>
+          </span>
+
+          <ul class="navbar-list">
+            <li class="navbar-item"><a href="../pages/filmGridNews.html">News</a></li>
+            <li class="navbar-item">
+              <a href="../pages/filmGrid.html">Films</a>
+            </li>
+            <li class="navbar-item">
+              <a href="../pages/filmGridFavourite.html">Favourite</a>
+            </li>
+            <li class="navbar-item">
+              <input
+                id="search"
+                class="search-input"
+                type="search"
+                placeholder="Search"
+              />
+            </li>
+            <li class="navbar-item">
+              <a href="../pages/pageNotFound.html">
+                <button class="link-button">Sign Out</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="section-video">
+        <div class="container-video">
+          <video class="video" src="../video/inside.mp4" controls></video>
+        </div>
+      </section>
+
+      <article class="section-description">
+        <h1>Title</h1>
+        <p>Release Date: 2015</p>
+        <p>Score: 9/10</p>
+        <p>Sinopsis:</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ratione!
+          Praesentium voluptates alias odit architecto soluta sint sed, asperiores non!
+          Eos, cum earum odit dignissimos accusamus harum quidem! Dolores, magni.
+        </p>
+        <h2>Actors:</h2>
+        <div class="articleGrid-container">
+          <a href="#">
+            <img class="articleGrid-img" src="../img/actors/man.svg" alt="Name actor" />
+          </a>
+          <a href="#">
+            <img class="articleGrid-img" src="../img/actors/woman.svg" alt="Name actor" />
+          </a>
+          <a href="#">
+            <img class="articleGrid-img" src="../img/actors/man.svg" alt="Name actor" />
+          </a>
+        </div>
+      </article>
+
+      <aside class="aside-similar">
+        <h1>Similar movies</h1>
+        <a href="#">
+          <img class="aside-img" src="../img/films/eliBook.jpg" alt="" />
+        </a>
+      </aside>
+
+      <footer class="footer">
+        <section class="container-footer">
+          <p>Got feedback?, This web is open source!.</p>
+          <p>
+            Exercise for learn Html5 & CSS3 by
+            <a href="https://keepcoding.io/">
+              <strong>Keepcoding!</strong>
+            </a>
+          </p>
+          <p>
+            Made with <i class="i-color-l">&lt;/code&gt; & ❤️</i> by
+            <a href="https://github.com/anbreaker">
+              <i class="i-color">anbreaker</i>
+            </a>
+          </p>
+        </section>
+      </footer>
     </div>
   </body>
 </html>

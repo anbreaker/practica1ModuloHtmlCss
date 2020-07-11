@@ -1,0 +1,22 @@
+* {
+  color: white;
+  margin: .2rem;
+}
+
+/* Mobile First */
+
+.header {
+  border: rgb(48, 163, 148) 1px solid;
+}
+
+.section-video {
+  border: rgb(51, 216, 17) 1px solid;
+}
+
+.section-description {
+  border: rgb(245, 56, 220) 1px solid;
+}
+
+.section-related {
+  border: rgb(62, 151, 179) 1px solid;
+}

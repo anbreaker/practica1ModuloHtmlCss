@@ -36,11 +36,18 @@
 
 
 .article-description .article-title,
-.article-description .article-subTitle,
 .aside-similar .aside-title {
   color: var(--yellow-color);
   text-decoration: underline;
   text-transform: capitalize;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.article-description .article-subTitle {
+  font-size: 1.8rem;
+  text-align: left;
+  color: var(--yellow-color);
 }
 
 .article-description .article-strong {
@@ -58,9 +65,9 @@
 .aside-similar .aside-title {
   font-size: 1.28rem;
   text-transform: capitalize;
+  text-align: left;
   color: var(--yellow-color);
-  /* width: calc(calc(250px*5) + calc(4*.5rem)); */
-  margin: 4rem 4rem 4.7rem .5rem;
+  margin: 3.7rem 4rem 4.7rem .5rem;
 }
 
 .aside-similar .aside-img {
@@ -107,7 +114,6 @@
 
 /* Landscape */
 @media (min-width: 500px) {
-
   .article-description {
     margin: 0;
   }
@@ -155,14 +161,8 @@
 
 /* screen width > 1024 */
 @media (min-width: 1024px) {
-
   .video {
     width: 98%;
     height: 98%;
-  }
-
-  .aside-similar .aside-img {
-    width: 480px;
-    height: 234px;
   }
 }

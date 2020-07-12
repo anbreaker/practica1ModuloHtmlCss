@@ -35,12 +35,12 @@
   text-decoration: none;
   color: white;
   background: var(--element-color);
-  /* elemento colocado para simulacion */
+  /* element for simulation */
   cursor: pointer;
 }
 
-a {
-  /* elemento colocado para simulacion */
+.login-link {
+  /* element for simulation */
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ a {
   margin: 1.25rem 0rem;
 }
 
-.login-signup a {
+.login-signup .login-link {
   color: #ffffff;
   font-weight: 600;
 }

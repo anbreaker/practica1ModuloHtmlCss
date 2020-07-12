@@ -67,7 +67,15 @@
 }
 
 .aside-film:hover {
-  transform: scale(1.1, 1.1)
+  transform: scale(1.1, 1.1);
+}
+
+.article-actor {
+  transition: all 0.3s ease-in-out;
+}
+
+.article-actor:hover {
+  transform: skewX(32deg);
 }
 
 .aside-similar .aside-title {

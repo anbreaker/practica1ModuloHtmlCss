@@ -111,7 +111,7 @@ label #close-menu {
 }
 
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 800px) {
 
   label #open-menu {
     display: block;

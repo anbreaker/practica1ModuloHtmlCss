@@ -1,6 +1,6 @@
 # Práctica HTML5 & CSS BootcampWeb Keepcoding
 
-![Keepcoding](https://keepcoding.io/wp-content/uploads/2020/02/Logo_KeppCoding.png)
+![Keepcoding](https://keepcoding.io)
 
 # Fundamentos de HTML5 y CSS3 🚀
 

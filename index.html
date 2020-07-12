@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/icomoon.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+    <title>Web Pelis</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav id="navbar" class="navbar">
+          <input type="checkbox" id="hidden-menu" />
+          <label for="hidden-menu">
+            <i class="ico-menu" id="open-menu"></i>
+            <i class="ico-cross" id="close-menu"></i>
+          </label>
+          <a href="#"><h1>rootdevs</h1></a>
+          <span class="logo">
+            <a href="../pages/index.html">
+              <img class="logo-img" src="../img/logo.svg" alt="Logo" />
+            </a>
+          </span>
+
+          <ul class="navbar-list">
+            <li class="navbar-item"><a href="../pages/filmNews.html">News</a></li>
+            <li class="navbar-item">
+              <a href="../pages/index.html">Films</a>
+            </li>
+            <li class="navbar-item">
+              <a href="../pages/filmFavourites.html">Favourite</a>
+            </li>
+            <li class="navbar-item">
+              <input
+                id="search"
+                class="search-input"
+                type="search"
+                placeholder="Search"
+              />
+            </li>
+            <li class="navbar-item">
+              <a href="../pages/pageNotFound.html">
+                <button class="link-button">Sign Out</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="section-films">
+        <h1 class="section-title">Films:</h1>
+        <hr class="hr-line" />
+
+        <div class="container-gridfilms">
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/futurama.jpg" alt="Picture of Futurama" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Futurama: The Beast with a Billion Backs (2008)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Fresh off ripping space-time a new one at the end of "Bender's Big
+                  Score," the Planet Express crew...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/thePursuit.jpg" alt="Picture of The Pursuit" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  The Pursuit of Happyness (2006)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Based on a true story about a man named Christopher Gardner, who has
+                  invested heavily in a device known as a "Bone Density scanner"...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/harryPotter.jpg" alt="Picture of Harry Potter" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-empty"></i>
+                <h1 class="comments-title">
+                  Harry Potter and the Philosopher's Stone (2001)
+                </h1>
+                <p class="comments-age">Movie rating: Age +8</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Harry Potter has lived under the stairs. But on his 11th birthday, he
+                  learns he's a powerful wizard with a place waiting for him at the
+                  Hogwarts School...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/starWars.jpg" alt="Picture of Star Wars" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Star Wars Episode IV A New Hope(1977)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Princess Leia is captured and held hostage by the evil Imperial forces
+                  in their effort to take over the galactic Empire...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/batmanBeyond.jpg" alt="Picture of Batman" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-empty"></i>
+                <h1 class="comments-title">
+                  Batman Beyond: Return of the Joker (2000)
+                </h1>
+                <p class="comments-age">Movie rating: Age +8</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  The Joker is back, and Gotham's newest Dark Knight needs answers as he
+                  stands alone to face Gotham's most infamous Clown Prince of Crime.
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img
+                  src="../img/films/reservoirDogs.jpg"
+                  alt="Picture of Reservoir Dogs"
+                />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-empty"></i>
+                <h1 class="comments-title">
+                  Reservoir Dogs (1992)
+                </h1>
+                <p class="comments-age">Movie rating: Age +18</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  A botched robbery indicates a police informant, and the pressure mounts
+                  in the aftermath at a warehouse. Crime begets violence as the
+                  survivors...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/theWolf.jpg" alt="Picture of The Wolf" />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-empty"></i>
+                <h1 class="comments-title">
+                  The Wolf of Wall Street (2013)
+                </h1>
+                <p class="comments-age">Movie rating: Age +18</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  A New York stockbroker refuses to cooperate in fraud case involving
+                  corruption on Wall Street, corporate banking world and mob infiltration.
+                  Based on Jordan Belfort's autobiography.
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/pulpFiction.jpg" alt="Picture of Pulp Fiction" />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Pulp Fiction (1994)
+                </h1>
+                <p class="comments-age">Movie rating: Age +18</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  A burger-loving hit man, his philosophical partner, a drug-addled
+                  gangster's moll and a washed-up boxer converge in this sprawling,
+                  comedic crime caper...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/eliBook.jpg" alt="Picture of The Book of Eli" />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-empty"></i>
+                <h1 class="comments-title">
+                  The Book of Eli (2010)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  A post-apocalyptic tale, in which a lone man fights his way across
+                  America in order to protect a sacred book that holds the secrets to
+                  saving humankind.
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/rocky.jpg" alt="Picture of Rocky" />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Rocky (1976)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  When world heavyweight boxing champ Apollo Creed wants to give an
+                  unknown fighter a shot at the title as a publicity stunt, his handlers
+                  pick palooka Rocky Balboa, an uneducated collector...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/inside.jpg" alt="Picture of Rocky" />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-empty"></i>
+                <h1 class="comments-title">
+                  Inside Out (2015)
+                </h1>
+                <p class="comments-age">Movie rating: Age +1</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Riley, uprooted from her Midwest life, when her father starts a new job
+                  in San Francisco. Riley is guided by her emotions - Joy, Fear, Anger,
+                  Disgust and Sadness...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/madMaxNew.jpg" alt="Picture of Rocky" />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Mad Max: Fury Road (2015)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  An apocalyptic story set in the furthest reaches of our planet, in a
+                  stark desert landscape where humanity is broken, and most everyone is
+                  crazed fighting for the necessities of life...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+        </div>
+      </section>
+
+      <section class="section-watchNext">
+        <h1 class="section-title">Watch next:</h1>
+        <hr class="hr-line" />
+
+        <div class="container-gridfilms">
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/futurama.jpg" alt="Picture of Futurama" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Futurama: The Beast with a Billion Backs (2008)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Fresh off ripping space-time a new one at the end of "Bender's Big
+                  Score," the Planet Express crew...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/thePursuit.jpg" alt="Picture of The Pursuit" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  The Pursuit of Happyness (2006)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Based on a true story about a man named Christopher Gardner, who has
+                  invested heavily in a device known as a "Bone Density scanner"...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/harryPotter.jpg" alt="Picture of Harry Potter" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-empty"></i>
+                <h1 class="comments-title">
+                  Harry Potter and the Philosopher's Stone (2001)
+                </h1>
+                <p class="comments-age">Movie rating: Age +8</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Harry Potter has lived under the stairs at his uncle's house. But on his
+                  11th birthday, he learns he's a powerful wizard with a place waiting for
+                  him at the Hogwarts School...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/starWars.jpg" alt="Picture of Star Wars" />
+              </figure>
+
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Star Wars Episode IV A New Hope(1977)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Princess Leia is captured and held hostage by the evil Imperial forces
+                  in their effort to take over the galactic Empire...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/inside.jpg" alt="Picture of Inside Out" />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-empty"></i>
+                <h1 class="comments-title">
+                  Inside Out (2015)
+                </h1>
+                <p class="comments-age">Movie rating: Age +1</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  Riley, uprooted from her Midwest life, when her father starts a new job
+                  in San Francisco. Riley is guided by her emotions - Joy, Fear, Anger,
+                  Disgust and Sadness...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+
+          <a href="../pages/movieDescription.html" class="gridfilm">
+            <article>
+              <figure class="gridfilms-image">
+                <img src="../img/films/madMaxNew.jpg" alt="Picture of Mad Max" />
+              </figure>
+              <div class="gridfilms-description">
+                <i class="gridfilms-fav ico-star-full"></i>
+                <h1 class="comments-title">
+                  Mad Max: Fury Road (2015)
+                </h1>
+                <p class="comments-age">Movie rating: Age +16</p>
+                <h2 class="comments-description">Description:</h2>
+                <q class="comments-synopsis">
+                  An apocalyptic story set in the furthest reaches of our planet, in a
+                  stark desert landscape where humanity is broken, and most everyone is
+                  crazed fighting for the necessities of life...
+                </q>
+                <i class="ico-play gridfilms-play"></i>
+              </div>
+            </article>
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container-footer">
+          <p>Got feedback? This web is open source!.</p>
+          <p>
+            Exercise for learning HTML5 & CSS3 by
+            <a href="https://keepcoding.io/" target="_blank" rel="noreferrer noopener">
+              <strong>Keepcoding!</strong>
+            </a>
+          </p>
+          <p>
+            Made with <i class="i-color-l">&lt;/code&gt; & ❤️</i> by
+            <a
+              href="https://github.com/anbreaker"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <i class="i-color">anbreaker</i>
+            </a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

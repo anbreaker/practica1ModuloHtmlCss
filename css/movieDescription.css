@@ -127,7 +127,6 @@
   text-align: center;
 }
 
-
 .wrapper {
   display: grid;
   gap: 1rem;
@@ -185,7 +184,6 @@
   .article-img {
     margin: 1rem;
   }
-
 
   .article-description {
     margin-left: 2rem;

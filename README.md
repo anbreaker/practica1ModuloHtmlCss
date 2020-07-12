@@ -1,10 +1,10 @@
 # Práctica HTML5 & CSS BootcampWeb Keepcoding
 
-![](https://keepcoding.io/es/wp-content/uploads/sites/4/2018/02/KeepCoding-Logo-820x400.png)
+![Keepcoding](https://keepcoding.io/wp-content/uploads/2020/02/Logo_KeppCoding.png)
 
 # Fundamentos de HTML5 y CSS3 🚀
 
-> Web escrita en HTML5 y CSS3, sin Framework ni JS. BootCamp Web - IX Edición | KeepCoding.io
+> Web escrita en HTML5 y CSS3, sin Framework ni JS. BootCamp Web - IX Edición | [KeepCoding.io](https://keepcoding.io/)
 
 Creación de un sitio web para plataforma online de contenido digital.
 
@@ -28,5 +28,9 @@ Creación de un sitio web para plataforma online de contenido digital.
 **Francisco Javier Antúnez Durán** | [GitHub: anbreaker](https://github.com/anbreaker) - [LinkedIn](https://www.linkedin.com/in/francisco-javier-ant%C3%BAnez-dur%C3%A1n-67319a6a/)
 📱[+34 637 128 809](+34637128809) :es: Spain
 📧 antunez19@gmail.com
+
+## Para ver el concept del proyecto:
+
+[Link 🧑‍💻](https://anbreaker.github.io/practicaModuloHtmlCss/pages/index.html)
 
 > Made with :lov3: ❤️ & :code: [anbreaker](https://github.com/anbreaker) 🚀

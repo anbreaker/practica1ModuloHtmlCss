@@ -7,7 +7,7 @@
 
 .main-head {
   grid-area: header;
-  border: 1px solid crimson;
+  border: 1px solid rgb(97, 137, 248);
 }
 
 .content {
@@ -18,22 +18,22 @@
 
 .main-nav {
   grid-area: nav;
-  border: 1px solid crimson;
+  border: 1px solid rgb(236, 79, 184);
 }
 
 .side {
   grid-area: sidebar;
-  border: 1px solid crimson;
+  border: 1px solid rgb(62, 236, 167);
 }
 
 .ad {
   grid-area: ad;
-  border: 1px solid crimson;
+  border: 1px solid rgb(201, 30, 67);
 }
 
 .main-footer {
   grid-area: footer;
-  border: 1px solid crimson;
+  border: 1px solid rgb(101, 190, 238);
 }
 
 .wrapper {

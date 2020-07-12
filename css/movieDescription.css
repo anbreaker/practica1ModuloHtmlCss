@@ -110,11 +110,23 @@
   justify-content: center;
 }
 
+.article-span .article-actor {
+  display: flex;
+  flex-direction: column;
+}
+
 .article-img {
   width: 5rem;
   margin-right: .5rem;
   margin-bottom: 2rem;
+  margin: 1rem;
 }
+
+.article-container {
+  justify-content: center;
+  text-align: center;
+}
+
 
 .wrapper {
   display: grid;
@@ -161,9 +173,19 @@
     max-width: 95%;
   }
 
-  .article-container {
-    justify-content: left;
+  .article-name {
+    display: initial;
   }
+
+  .article-container {
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .article-img {
+    margin: 1rem;
+  }
+
 
   .article-description {
     margin-left: 2rem;
@@ -187,6 +209,10 @@
   }
 
   .article-container {
-    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .article-img {
+    margin: 1rem;
   }
 }

@@ -91,7 +91,7 @@
 .article-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
 }
 
 .article-img {
@@ -143,6 +143,10 @@
     max-width: 95%;
   }
 
+  .article-container {
+    justify-content: left;
+  }
+
   .article-description {
     margin-left: 2rem;
   }
@@ -162,5 +166,9 @@
   .video {
     width: 98%;
     height: 98%;
+  }
+
+  .article-container {
+    justify-content: center;
   }
 }

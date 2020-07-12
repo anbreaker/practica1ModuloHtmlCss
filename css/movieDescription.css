@@ -62,6 +62,14 @@
   /* border: rgb(103, 188, 214) 1px solid; */
 }
 
+.aside-film {
+  transition: all 0.3s ease-in-out;
+}
+
+.aside-film:hover {
+  transform: scale(1.1, 1.1)
+}
+
 .aside-similar .aside-title {
   font-size: 1.28rem;
   text-transform: capitalize;

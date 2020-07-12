@@ -17,18 +17,31 @@
             Log In
           </div>
           <div class="login-input-zone">
-            <input class="login-input" type="email" placeholder="yourEmail@address.com" />
-            <input class="login-input" type="password" placeholder="Your Password" />
-            <a href="../pages/index.html" class="login-link">
-              <input class="login-input button" type="button" value="Log In"/>
-            </a>
+            <form action="login.html" method="GET">
+              <input
+                class="login-input"
+                type="email"
+                placeholder="yourEmail@address.com"
+                required
+              />
+              <input
+                class="login-input"
+                type="password"
+                placeholder="Your Password"
+                required
+              />
+              <a href="#" class="login-link">
+                <input class="login-input button" type="submit" value="Log In" />
+              </a>
+            </form>
           </div>
           <div class="login-forgot">
-            Forgot password?</a>
+            <a href="../pages/pageNotFound.html">Forgot password?</a>
           </div>
         </div>
         <div class="login-signup">
-          Don't have an account? <a href="../pages/pageNotFound.html" class="login-link">Sign Up</a>
+          Don't have an account?
+          <a href="../pages/index.html" class="login-link">Sign Up</a>
         </div>
       </div>
     </section>

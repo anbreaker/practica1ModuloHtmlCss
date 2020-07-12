@@ -40,14 +40,13 @@
 }
 
 .login-link {
-  /* element for simulation */
   text-decoration: none;
 }
 
-.login-forgot {
-  text-decoration: underline;
+.login-forgot>a {
+  text-decoration: none;
+  color: var(--element-color);
   font-size: 0.875rem;
-  color: #987;
 }
 
 .login-signup {

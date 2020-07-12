@@ -113,6 +113,16 @@
     margin: 4rem 4rem 0 1.5rem;
   }
 
+  .comments-title,
+  .comments-description {
+    font-size: 1.2rem;
+  }
+
+  .comments-age,
+  .comments-synopsis {
+    font-size: 1rem;
+  }
+
   .gridfilms-description {
     position: absolute;
     display: none;

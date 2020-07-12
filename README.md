@@ -31,6 +31,6 @@ Creación de un sitio web para plataforma online de contenido digital.
 
 ## Para ver el concept del proyecto:
 
-[Link 🧑‍💻](https://anbreaker.github.io/practicaModuloHtmlCss/pages/index.html)
+[Link 🧑‍💻](https://anbreaker.github.io/practicaModuloHtmlCss/)
 
 > Made with :lov3: ❤️ & :code: [anbreaker](https://github.com/anbreaker) 🚀
